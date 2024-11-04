@@ -37,3 +37,11 @@ void loop()
   digitalWrite(LED, HIGH);
 }
 ```
+
+---
+
+<div align="center">
+    <img
+        src="https://github.com/AyckinnLisa/arduino/blob/main/LED/pics/01.md"
+        style="width:75%">
+</div>
