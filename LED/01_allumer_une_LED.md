@@ -23,15 +23,15 @@ Outils:
 
 void setup()
 {
-  // Initialisation de la LED en sortie
-  pinMode(LED, OUTPUT);
+    // Initialisation de la LED en sortie
+    pinMode(LED, OUTPUT);
 }
 
 
 void loop()
 {
-  // Allumage de la LED = HIGH
-  digitalWrite(LED, HIGH);
+    // Allumage de la LED = HIGH
+    digitalWrite(LED, HIGH);
 }
 ```
 
