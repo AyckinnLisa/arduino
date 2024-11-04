@@ -24,17 +24,15 @@ Outils:
 <br>
 
 ```c
-// Association des boutons à pression sur les ports analogiques 12 et 13 du board Arduino
-const int BUTTON_ON = 12;
-const int BUTTON_OFF = 13;
-
-// Association de la LED sur le port analogique 4 du board
-const int LED = 4;
+// Association des boutons à pression sur les ports digitaux 12 et 13
+#define BUTTON_ON   12
+#define BUTTON_OFF  13
+// Association de la LED sur le port digital 4
+#define LED  4
 
 // Définition des boutons sur 1 par défaut
 bool buttonOnIsUp = true;
 bool buttonOffIsUp = true;
-
 // LED eteinte par defaut
 bool ledState = false;
 
