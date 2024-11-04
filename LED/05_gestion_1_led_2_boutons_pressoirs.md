@@ -18,7 +18,7 @@ Outils:
     - x1 Breadboard
     - x1 LED
     - x1 Resistance de 220 ohm
-    - 2x Boutons poussoirs
+    - x2 Boutons poussoirs
 </pre>
 
 <br>
