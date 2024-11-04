@@ -21,7 +21,7 @@ Outils:
 
 ```c
 // Association de la LED sur le port digital 4
-const int LED = 4;
+#define LED  4
 
 
 void setup()
