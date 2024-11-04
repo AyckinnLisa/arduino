@@ -26,20 +26,20 @@ Outils:
 
 void setup()
 {
-  // Initialisation de la LED en sortie
-  pinMode(LED, OUTPUT);
+    // Initialisation de la LED en sortie
+    pinMode(LED, OUTPUT);
 }
 
 
 void loop()
 {
-  // Allumage de la LED = HIGH
-  digitalWrite(LED, HIGH);
-  delay(200);
+    // Allumage de la LED = HIGH
+    digitalWrite(LED, HIGH);
+    delay(200);
 
-  // Extinction de la LED = LOW
-  digitalWrite(LED, LOW);
-  delay(200);
+    // Extinction de la LED = LOW
+    digitalWrite(LED, LOW);
+    delay(200);
 }
 ```
 
