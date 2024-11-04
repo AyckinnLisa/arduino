@@ -37,23 +37,23 @@ bool LEDState = false;
 
 void setup()
 {
-  // Initialisation du bouton en entrée
-  pinMode(BUTTON, INPUT_PULLUP);
-  // Initialisation de la LED en sortie
-  pinMode(LED, OUTPUT);
+    // Initialisation du bouton en entrée
+    pinMode(BUTTON, INPUT_PULLUP);
+    // Initialisation de la LED en sortie
+    pinMode(LED, OUTPUT);
 }
 
 
 void loop()
 {
-  // Lecture de l'état du bouton (par defaut: 1)
-  // 0: Bouton pressé
-  // 1: Bouton relaché
-  bool buttonState = digitalRead(BUTTON);
+    // Lecture de l'état du bouton (par defaut: 1)
+    // 0: Bouton pressé
+    // 1: Bouton relaché
+    bool buttonState = digitalRead(BUTTON);
 
-        // == 0                        == True: Allumée
-  if (!buttonState) { digitalWrite(LED, !LEDState); }
-  else { digitalWrite(LED, LEDState); }
+          // == 0                        == True: Allumée
+    if (!buttonState) { digitalWrite(LED, !LEDState); }
+    else { digitalWrite(LED, LEDState); }
 }
 ```
 
