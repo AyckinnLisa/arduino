@@ -39,43 +39,42 @@ bool ledState = false;
 
 void setup()
 {
-  // Initialisation des boutons ON et OFF en entrée
-  pinMode(BUTTON_ON, INPUT_PULLUP);
-  pinMode(BUTTON_OFF, INPUT_PULLUP);
+    // Initialisation des boutons ON et OFF en entrée
+    pinMode(BUTTON_ON, INPUT_PULLUP);
+    pinMode(BUTTON_OFF, INPUT_PULLUP);
 
-  // Initialisation de la LED en sortie
-  pinMode(LED, OUTPUT);
+    // Initialisation de la LED en sortie
+    pinMode(LED, OUTPUT);
 }
 
 
 void loop()
 {
+    // Lecture de l'état des boutons (par defaut: 1)
+    // 0: Bouton pressé
+    // 1: Bouton relaché
+    bool buttonOnState = digitalRead(BUTTON_ON);
+    bool buttonOffState = digitalRead(BUTTON_OFF);
 
-  // Lecture de l'état des boutons (par defaut: 1)
-  // 0: Bouton pressé
-  // 1: Bouton relaché
-  bool buttonOnState = digitalRead(BUTTON_ON);
-  bool buttonOffState = digitalRead(BUTTON_OFF);
+    // Gestion de l'allumage de la LED
+    // Le court delai sert à éviter d'envoyer une mauvaise information 
+    // à la LED due au rebondissement au moment de la pression du bouton
+    if (buttonOnIsUp && !buttonOnState)
+    {
+        delay(10);
+        buttonOnState = digitalRead(BUTTON_ON);
 
-  // Gestion de l'allumage de la LED
-  // Le court delai sert à éviter d'envoyer une mauvaise information 
-  // à la LED due au rebondissement au moment de la pression du bouton
-  if (buttonOnIsUp && !buttonOnState)
-  {
-    delay(10);
-    buttonOnState = digitalRead(BUTTON_ON);
+        if (!buttonOnState) { digitalWrite(LED, !ledState); }
+    }
 
-    if (!buttonOnState) { digitalWrite(LED, !ledState); }
-  }
-
-  // Gestion de l'extinction de la LED
-  if (buttonOffIsUp && !buttonOffState)
-  {
-    delay(10);
-    buttonOffState = digitalRead(BUTTON_OFF);
-    
-    if (!buttonOffState) { digitalWrite(LED, ledState); }
-  }
+    // Gestion de l'extinction de la LED
+    if (buttonOffIsUp && !buttonOffState)
+    {
+        delay(10);
+        buttonOffState = digitalRead(BUTTON_OFF);
+        
+        if (!buttonOffState) { digitalWrite(LED, ledState); }
+    }
 }
 ```
 
