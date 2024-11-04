@@ -14,13 +14,13 @@ Il est IMPERATIF que la LED soit connectée sur un port 'Pulse Width Modulation'
 Modulation de Largeur d'Impulsion (MLI), qui est un port de gestion de modulation allant
 de 0 à 100%. Sur le board Arduino, ils sont identifiés par le signe [~].
 
-Pour déterminer les valeurs minimales et maximales à utiliser pour le réglage de l'intensité,
+Pour éviter que la valeur d'intensité lumineuse actuelle ne dépasse un seuil donné,
 il faut utiliser la fonction [constrain]. Elle prend 3 paramètres:
     - La valeur actuelle
-    - La valeur minimale
-    - La valeur maximale
+    - Le seuil minimal
+    - Le seuil maximal
     
-Il est à noter que les valeurs minimales et maximales utilisables sont (0 - 255), nous pouvons
+Il est à noter que les seuils minimal et maximal utilisables sont (0 - 255), nous pouvons
 donc travailler dans cet intervalle.
 
 
@@ -82,7 +82,7 @@ bool PressButton(int buttonPin, bool isActive, int lightValue)
         delay(10);
         isActivated = digitalRead(buttonPin);
 
-        // Définit les valeurs minimales et maximales (0 à 240)
+        // Définition des seuils (entre 0 et 240)
         if (!isActivated) { brightness = constrain((brightness + lightValue), 0, 240); }
     }
     return isActivated;
