@@ -25,9 +25,9 @@ Outils:
 
 ```c
 // Association du bouton à pression sur le port digital 13 
-const int BUTTON = 13;
+#define BUTTON  13
 // Association de la LED sur le port digital 4
-const int LED = 4;
+#define LED  4
 
 bool buttonIsUp = true;
 bool ledState = false;
