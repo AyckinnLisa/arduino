@@ -10,6 +10,8 @@ Ce programme permet de gérer une LED avec un bouton poussoir
 Dans la mesure où la LED et le bouton ne vont pas bouger des ports sur lesquels ils sont connectés,
 ils seront déclarés dans des variables constantes.
 
+Nous utiliserons des booléens pour gérer les différents états du bouton et de la LED.
+
 Outils:
     - x1 Arduino Uno
     - x1 Breadboard
