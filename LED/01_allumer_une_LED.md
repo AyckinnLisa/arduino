@@ -7,9 +7,6 @@ Créé par Yannick HEUDE
 
 Le programme permet simplement d'allumer une LED avec un Arduino Uno.
 
-Dans la mesure où la LED ne va pas bouger du port sur lequel elle est connectée,
-elle est déclarée dans une variable constante.
-
 Outils:
     - x1 Arduino Uno
     - x1 Breadboard
@@ -21,7 +18,7 @@ Outils:
 
 ```c
 // Affectation de la LED sur le port digital 4 du board Arduino
-const int LED = 4;
+#define LED  4
 
 
 void setup()
