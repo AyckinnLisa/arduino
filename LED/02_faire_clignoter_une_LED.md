@@ -1,7 +1,7 @@
 ## FAIRE CLIGNOTER UNE LED
 
 <pre>
-Créer par Yannick HEUDE
+Créé par Yannick HEUDE
 04 Novembre 2024
 
 
