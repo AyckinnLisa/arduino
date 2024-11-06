@@ -12,7 +12,8 @@ La solution de facilité serait d'utiliser les paramètres HIGH (allumée) et LO
 le problème est que pour chaque action du feu tricolore, il faut lister l'état de chaque LED,
 ce qui est assez lourd et utilise beaucoup de répétition de code.
 
-Pour optimiser le code et alleger la boucle, nous allons utiliser une fonction.
+Pour optimiser le code et alleger la boucle, nous allons utiliser une fonction et les booléens
+pour allumer ou éteindre les LEDs: (True: Allumée - False: Eteinte).
 
 Outils:
     - x1 Arduino Uno
