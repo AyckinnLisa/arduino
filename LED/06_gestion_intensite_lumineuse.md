@@ -25,11 +25,11 @@ donc travailler dans cet intervalle.
 
 
 Outils:
-    - x1 Arduino Uno
-    - x1 Breadboard
-    - x1 LED
-    - x1 Resistance de 220 ohm
-    - x2 Boutons poussoirs
+    - 1x Arduino Uno
+    - 1x Breadboard
+    - 1x LED
+    - 1x Resistance de 220 ohm
+    - 2x Boutons poussoirs
 </pre>
 
 <br>
