@@ -16,10 +16,10 @@ Pour optimiser le code et alleger la boucle, nous allons utiliser une fonction e
 pour gérer l'état des LEDs: (True: Allumée - False: Eteinte).
 
 Outils:
-    - x1 Arduino Uno
-    - x1 Breadboard
-    - x3 LEDs (rouge, orange, verte)
-    - x3 Resistances de 220 ohm
+    - 1x Arduino Uno
+    - 1x Breadboard
+    - 3x LEDs (rouge, orange, verte)
+    - 3x Resistances de 220 ohm
 </pre>
 
 <br>
