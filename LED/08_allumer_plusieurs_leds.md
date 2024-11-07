@@ -8,8 +8,7 @@ Ce programme permet d'allumer 4 LEDs une par une, toutes les secondes de manièr
 non persistente, puis, une par une de manière persistante et enfin, il éteint toutes
 les LEDs et la boucle reprend.
 
-Pour ce programme, nous allons reprendre le même principe que pour le feu tricolore.
-Lien: <a href="https://github.com/AyckinnLisa/arduino/blob/main/LED/07_simulation_feu_tricolore.md">Feu tricolore</a>
+Pour ce programme, nous allons reprendre le même principe que pour le <a href="https://github.com/AyckinnLisa/arduino/blob/main/LED/07_simulation_feu_tricolore.md">Feu tricolore</a>
 
 Outils:
     - 1x Arduino Uno
