@@ -8,10 +8,10 @@ Créé par Yannick HEUDE
 Le programme permet simplement d'allumer une LED avec un Arduino Uno.
 
 Outils:
-    - x1 Arduino Uno
-    - x1 Breadboard
-    - x1 LED
-    - x1 Resistance de 220 ohm
+    - 1x Arduino Uno
+    - 1x Breadboard
+    - 1x LED
+    - 1x Resistance de 220 ohm
 </pre>
 
 <br>
