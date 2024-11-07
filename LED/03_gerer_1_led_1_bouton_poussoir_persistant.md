@@ -14,10 +14,10 @@ ils seront déclarés dans des variables constantes.
 Nous utiliserons des booléens pour gérer les différents états du bouton et de la LED.
 
 Outils:
-    - x1 Arduino Uno
-    - x1 Breadboard
-    - x1 LED
-    - x1 Resistance de 220 ohm
+    - 1x Arduino Uno
+    - 1x Breadboard
+    - 1x LED
+    - 1x Resistance de 220 ohm
     - 1x Bouton poussoir
 </pre>
 
