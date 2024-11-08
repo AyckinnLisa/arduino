@@ -13,7 +13,7 @@ Outils:
     - 1x Arduino Uno
     - 1x Breadboard
     - 1x LED 
-    - 1x Resistances de 220 ohm
+    - 1x Resistance de 220 ohm
     - 1x Potentiomètre
 </pre>
 
@@ -67,6 +67,6 @@ void loop()
 
 <div align="center">
     <img
-        src="https://github.com/AyckinnLisa/arduino/blob/main/LED/pics/07.png"
+        src="https://github.com/AyckinnLisa/arduino/blob/main/pics/07.png"
         style="width:60%">
 </div>
