@@ -39,6 +39,6 @@ void loop()
 
 <div align="center">
     <img
-        src="https://github.com/AyckinnLisa/arduino/blob/main/LED/pics/01.png"
+        src="https://github.com/AyckinnLisa/arduino/blob/main/pics/01.png"
         style="width:60%">
 </div>
