@@ -39,7 +39,7 @@ void loop()
 
 <div align="center">
     <img
-        src="https://github.com/AyckinnLisa/arduino/blob/main/LED/pics/01.png"
+        src="https://github.com/AyckinnLisa/arduino/blob/main/LED/pics/01.mov"
         style="width:60%">
 </div>
 
