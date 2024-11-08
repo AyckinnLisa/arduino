@@ -93,6 +93,6 @@ bool PressButton(int buttonPin, bool isActive, int lightValue)
 
 <div align="center">
     <img
-        src="https://github.com/AyckinnLisa/arduino/blob/main/LED/pics/04.png"
+        src="https://github.com/AyckinnLisa/arduino/blob/main/pics/04.png"
         style="width:60%">
 </div>
