@@ -66,6 +66,6 @@ void loop()
 
 <div align="center">
     <img
-        src="https://github.com/AyckinnLisa/arduino/blob/main/LED/pics/05.png"
+        src="https://github.com/AyckinnLisa/arduino/blob/main/pics/05.png"
         style="width:60%">
 </div>
