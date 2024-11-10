@@ -43,7 +43,7 @@ int lightValue;
 
 void setup()
 {
-    //Initialisation de la LED
+    // Initialisation de la LED
     pinMode(LED, OUTPUT);
     // Initialisation du moniteur série
     Serial.begin(9600);
@@ -52,7 +52,7 @@ void setup()
 
 void loop()
 {
-    // Leture et stockage des valeurs renvoyées par le capteur
+    // Lecture et stockage des valeurs renvoyées par le capteur
     lightValue = analogRead(lightSensor);
 
     // Controle de l'état de la LED en fonction de la luminosité
