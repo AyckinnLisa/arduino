@@ -1,5 +1,7 @@
 ## ALLUMER UNE LED
 
+#### DESCRIPTION
+
 <pre>
 Créé par Yannick HEUDE
 04 Novembre 2024
@@ -14,7 +16,7 @@ Outils:
     - 1x Resistance de 220 ohm
 </pre>
 
-### CODE SOURCE
+#### CODE SOURCE
 
 ```c
 // Affectation de la LED sur le port digital 4 du board Arduino
