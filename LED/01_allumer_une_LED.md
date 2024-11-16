@@ -39,7 +39,7 @@ void loop()
 
 #### CIRCUIT
 
-<div align="center">
+<div align="left">
     <img
         src="https://github.com/AyckinnLisa/arduino/blob/main/pics/01.png"
         style="width:60%">
