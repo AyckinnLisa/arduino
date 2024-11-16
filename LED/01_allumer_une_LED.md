@@ -14,8 +14,6 @@ Outils:
     - 1x Resistance de 220 ohm
 </pre>
 
-<br>
-
 ### CODE SOURCE
 
 ```c
