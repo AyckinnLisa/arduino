@@ -1,5 +1,7 @@
 ## Mesurer l'intensité lumineuse avec 8 LEDs
 
+#### DESCRIPTION
+
 <pre>
 Créé par Yannick HEUDE
 12 Novembre 2024
@@ -18,13 +20,13 @@ Plus la valeur se rapprochera de 1023 (donc 5V), plus l’intensité lumineuse s
 Outils:
     - 1x Arduino Uno
     - 1x Breadboard
-    - 1x Resistance de 10K ohm
+    - 1x Resistance de 10KΩ
     - 1x Capteur de luminosité
     - 8x LEDs
-    - 8x Resistances 220 ohm
+    - 8x Resistances 220Ω
 </pre>
 
-<br>
+#### CODE SOURCE
 
 ```c
 // Definition des ports des 8 LEDs
@@ -84,7 +86,7 @@ void loop()
 }
 ```
 
----
+#### CIRCUIT
 
 <div align="center">
     <img
