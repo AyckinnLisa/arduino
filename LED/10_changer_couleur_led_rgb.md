@@ -1,5 +1,7 @@
 ## CHANGER LA COULEUR D'UNE LED RGB
 
+#### DESCRIPTION
+
 <pre>
 Créé par Yannick HEUDE
 16 Novembre 2024
@@ -21,10 +23,10 @@ Outils:
     - 1x Arduino Uno
     - 1x Breadboard
     - 1x LED RGB
-    - 3x Resistances 220 ohm
+    - 3x Resistances 220Ω
 </pre>
 
-<br>
+#### CODE SOURCE
 
 ```c
 // Définition des ports pour chaque couleur de la LED RGB
@@ -80,9 +82,9 @@ void loop()
 }
 ```
 
----
+#### CIRCUIT
 
-<div align="center">
+<div align="left">
     <img
         src="https://github.com/AyckinnLisa/arduino/blob/main/pics/led_rgb.png"
         style="width:60%">
