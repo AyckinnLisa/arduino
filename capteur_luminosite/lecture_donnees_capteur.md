@@ -1,5 +1,7 @@
 ## LECTURE DES DONNEES DU CAPTEUR DE LUMINOSITE
 
+#### DESCRIPTION
+
 <pre>
 Créé par Yannick HEUDE
 08 Novembre 2024
@@ -17,11 +19,11 @@ Plus la valeur se rapprochera de 1023 (donc 5V), plus l’intensité lumineuse s
 Outils:
     - 1x Arduino Uno
     - 1x Breadboard
-    - 1x Resistance de 10K ohm
+    - 1x Resistance de 10KΩ
     - 1x Capteur de luminosité
 </pre>
 
-<br>
+#### CODE SOURCE
 
 ```c
 // Définition du port du capteur sur le port analogique A0
@@ -50,7 +52,7 @@ void loop()
 }
 ```
 
----
+#### CIRCUIT
 
 <div align="center">
     <img
