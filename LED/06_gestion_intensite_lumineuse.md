@@ -1,5 +1,7 @@
 ## GERER L'INTENSITE D'UNE LED AVEC DEUX BOUTONS POUSSOIRS
 
+#### DESCRIPTION
+
 <pre>
 Créé par Yannick HEUDE
 04 Novembre 2024
@@ -28,11 +30,11 @@ Outils:
     - 1x Arduino Uno
     - 1x Breadboard
     - 1x LED
-    - 1x Resistance de 220 ohm
+    - 1x Resistance de 220Ω
     - 2x Boutons poussoirs
 </pre>
 
-<br>
+#### CODE SOURCE
 
 ```c
 // Association de la LED sur le port digital PWM 3
@@ -89,9 +91,9 @@ bool PressButton(int buttonPin, bool isActive, int lightValue)
 }
 ```
 
----
+#### CIRCUIT
 
-<div align="center">
+<div align="left">
     <img
         src="https://github.com/AyckinnLisa/arduino/blob/main/pics/04.png"
         style="width:60%">
