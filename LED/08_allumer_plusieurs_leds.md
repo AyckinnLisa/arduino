@@ -1,5 +1,7 @@
 ## ALLUMER PLUSIEURS LEDS
 
+#### DESCRIPTION
+
 <pre>
 Créé par Yannick HEUDE
 07 Novembre 2024
@@ -14,10 +16,10 @@ Outils:
     - 1x Arduino Uno
     - 1x Breadboard
     - 4x LEDs (bleue, rouge, orange, verte)
-    - 4x Resistances de 220 ohm
+    - 4x Resistances de 220Ω
 </pre>
 
-<br>
+#### CODE SOURCE
 
 ```c
 // Définition des ports des LEDs
@@ -68,9 +70,9 @@ void loop()
 }
 ```
 
----
+#### CIRCUIT
 
-<div align="center">
+<div align="left">
     <img
         src="https://github.com/AyckinnLisa/arduino/blob/main/pics/06.png"
         style="width:60%">
