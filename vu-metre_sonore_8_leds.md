@@ -4,10 +4,6 @@
 Créé par Yannick HEUDE
 16 Novembre 2024
 
-
-Ce programme permet de récupérer un indice sonore à l'aide d'un capteur.
-Les résultats seront renvoyés dans le moniteur série.
-
 Outils:
     - 1x Arduino Uno
     - 1x Breadboard
