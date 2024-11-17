@@ -1,5 +1,7 @@
 ## SIMULATION D'UN FEU TRICOLORE
 
+#### DESCRIPTION
+
 <pre>
 Créé par Yannick HEUDE
 06 Novembre 2024
@@ -19,10 +21,10 @@ Outils:
     - 1x Arduino Uno
     - 1x Breadboard
     - 3x LEDs (rouge, orange, verte)
-    - 3x Resistances de 220 ohm
+    - 3x Resistances de 220Ω
 </pre>
 
-<br>
+#### CODE SOURCE
 
 ```c
 // Définition des sorties des LEDs
@@ -62,9 +64,9 @@ void loop()
 }
 ```
 
----
+#### CIRCUIT
 
-<div align="center">
+<div align="left">
     <img
         src="https://github.com/AyckinnLisa/arduino/blob/main/pics/05.png"
         style="width:60%">
