@@ -1,5 +1,7 @@
 ## CONTROLER UNE LED AVEC UN POTENTIOMETRE
 
+#### DESCRIPTION
+
 <pre>
 Créé par Yannick HEUDE
 08 Novembre 2024
@@ -13,11 +15,11 @@ Outils:
     - 1x Arduino Uno
     - 1x Breadboard
     - 1x LED 
-    - 1x Resistance de 220 ohm
+    - 1x Resistance de 220Ω
     - 1x Potentiomètre
 </pre>
 
-<br>
+#### CODE SOURCE
 
 ```c
 // Définition du port de la LED
@@ -63,9 +65,9 @@ void loop()
 }
 ```
 
----
+#### CIRCUIT
 
-<div align="center">
+<div align="left">
     <img
         src="https://github.com/AyckinnLisa/arduino/blob/main/pics/07.png"
         style="width:60%">
