@@ -1,5 +1,7 @@
 ## FAIRE CLIGNOTER UNE LED
 
+#### DESCRIPTION
+
 <pre>
 Créé par Yannick HEUDE
 04 Novembre 2024
@@ -14,10 +16,10 @@ Outils:
     - 1x Arduino Uno
     - 1x Breadboard
     - 1x LED
-    - 1x Resistance de 220 ohm
+    - 1x Resistance de 220Ω
 </pre>
 
-<br>
+#### CODE SOURCE
 
 ```c
 // Association de la LED sur le port digital 4
@@ -43,9 +45,9 @@ void loop()
 }
 ```
 
----
+#### CIRCUIT
 
-<div align="center">
+<div align="left">
     <img
         src="https://github.com/AyckinnLisa/arduino/blob/main/pics/01.png"
         style="width:60%">
