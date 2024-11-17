@@ -1,5 +1,7 @@
 ## GERER UNE LED, MODE PERSISTANT, AVEC DEUX BOUTONS POUSSOIRS
 
+#### DESCRIPTION
+
 <pre>
 Créé par Yannick HEUDE
 04 Novembre 2024
@@ -17,11 +19,11 @@ Outils:
     - 1x Arduino Uno
     - 1x Breadboard
     - 1x LED
-    - 1x Resistance de 220 ohm
+    - 1x Resistance de 220Ω
     - 2x Boutons poussoirs
 </pre>
 
-<br>
+#### CODE SOURCE
 
 ```c
 // Association des boutons à pression sur les ports digitaux 12 et 13
@@ -78,9 +80,9 @@ void loop()
 }
 ```
 
----
+#### CIRCUIT
 
-<div align="center">
+<div align="left">
     <img
         src="https://github.com/AyckinnLisa/arduino/blob/main/pics/03.png"
         style="width:60%">
