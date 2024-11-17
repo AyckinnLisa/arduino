@@ -38,7 +38,7 @@ Outils:
 int count = 1;
 
 // Fonction de gestion des différents états de la LED
-void loopColors(bool rState, bool bState, bool gState, int dTime)
+void stateLedColor(bool rState, bool bState, bool gState, int dTime)
 {
     digitalWrite(ROUGE, rState);
     digitalWrite(BLEUE, bState);
@@ -61,24 +61,24 @@ void setup()
 void loop()
 {
     // Allumage de la rouge
-    loopColors(true, false, false, 1000);
+    stateLedColor(true, false, false, 1000);
     // Allumage de la bleue
-    loopColors(false, true, false, 1000);
+    stateLedColor(false, true, false, 1000);
     // Allumage de la verte
-    loopColors(false, false, true, 1000);
+    stateLedColor(false, false, true, 1000);
 
     // Clignotement pendant 10 tours
     for (int i = 1; i < 11; i++)
     {
-        loopColors(true, false, false, 100);
-        loopColors(false, true, false, 100);
-        loopColors(false, false, true, 100);
+        stateLedColor(true, false, false, 100);
+        stateLedColor(false, true, false, 100);
+        stateLedColor(false, false, true, 100);
 
         count++;
     }
     
     // Extinction de la LED
-    loopColors(false, false, false, 500);
+    stateLedColor(false, false, false, 500);
 }
 ```
 
