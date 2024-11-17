@@ -1,5 +1,7 @@
 ## ALLUMER UNE LED DANS L'OBSCURITE
 
+#### DESCRIPTION
+
 <pre>
 Créé par Yannick HEUDE
 09 Novembre 2024
@@ -21,13 +23,13 @@ lui ajouter la gestion de la LED.
 Outils:
     - 1x Arduino Uno
     - 1x Breadboard
-    - 1x Resistance de 10K ohm
+    - 1x Resistance de 10KΩ
     - 1x Capteur de luminosité
     - 1x LED
-    - 1x Resistance 220 ohm
+    - 1x Resistance 220Ω
 </pre>
 
-<br>
+#### CODE SOURCE
 
 ```c
 // Definition du port de la LED
@@ -66,9 +68,9 @@ void loop()
 }
 ```
 
----
+#### CIRCUIT
 
-<div align="center">
+<div align="left">
     <img
         src="https://github.com/AyckinnLisa/arduino/blob/main/pics/light_sensor_led.png"
         style="width:60%">
