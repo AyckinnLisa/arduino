@@ -13,7 +13,7 @@ Outils:
     - 1x Arduino Uno
     - 1x Breadboard
     - 1x LED
-    - 1x Resistance de 220 ohm
+    - 1x Resistance de 220Ω
 </pre>
 
 #### CODE SOURCE
